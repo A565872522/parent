@@ -10,8 +10,8 @@
     </parent>
 
     <modules>
-        <module>dao</module>
         <module>service</module>
+        <module>service02</module>
         <module>eurekaregistry</module>
         <module>web</module>
     </modules>

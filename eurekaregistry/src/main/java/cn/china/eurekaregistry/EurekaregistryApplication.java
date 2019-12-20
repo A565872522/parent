@@ -7,8 +7,9 @@ import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfigurat
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @EnableEurekaServer  //该注解用于启动注册中心
-@SpringBootApplication(exclude={DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class})public class EurekaregistryApplication {
-
+@SpringBootApplication(exclude={DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class})
+public class EurekaregistryApplication {
+    //就是启动的时候要第一步要启动注册中心
     public static void main(String[] args) {
         SpringApplication.run(EurekaregistryApplication.class, args);
     }
