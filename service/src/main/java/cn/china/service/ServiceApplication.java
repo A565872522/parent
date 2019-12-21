@@ -19,7 +19,6 @@ import service.StudentService;
 @ComponentScan("service")
 @MapperScan("mapper")
 @RestController
-//@MapperScan("mapping")
 public class ServiceApplication {
 
     @Autowired

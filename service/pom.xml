@@ -42,6 +42,11 @@
             </exclusions>
         </dependency>
 
+        <!--项目启动错误，解决方法-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jetty</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

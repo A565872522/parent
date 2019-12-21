@@ -22,4 +22,4 @@ spring :
       connection-timeout: 6000
       maximum-pool-size: 5
 mybatis:
-  mapper-location: classpath:mapping/*Mapper.xml
+  mapper-locations: classpath:mapping/*Mapper.xml

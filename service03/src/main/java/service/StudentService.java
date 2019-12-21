@@ -1,0 +1,27 @@
+package service;
+
+import entity.Student;
+import mapper.StudentMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@Service
+@RestController
+public class StudentService{
+
+    @Autowired
+    StudentMapper sm;
+
+    @RequestMapping(value="/insert",produces = "application/json;charset=UTF-8")
+    public int insert(Student student){
+        student = new Student("王五",15,"男");
+        return sm.insert(student);
+    }
+
+    public Student getInfo() {
+        // return sm.getInfo();//就还不用数据库,没什么意义
+        return  new Student("张三",20,"女");
+    }
+}

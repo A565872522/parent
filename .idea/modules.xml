@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/eurekaregistry/eurekaregistry.iml" filepath="$PROJECT_DIR$/eurekaregistry/eurekaregistry.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/service02/service02.iml" filepath="$PROJECT_DIR$/service02/service02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service03/service03.iml" filepath="$PROJECT_DIR$/service03/service03.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
     </modules>
   </component>
